@@ -1,0 +1,13 @@
+.bang_danh_sach .ant-table-header table thead th {
+    background-color: #4096ff !important;
+    color: #fff;
+}
+
+.bang_danh_sach .ant-table-column-sorter-inner .active {
+    color: white;
+}
+
+.edit_size_number_admin .ant-form-item-control-input-content .ant-input-number-group-wrapper {
+    width: 100%;
+
+}

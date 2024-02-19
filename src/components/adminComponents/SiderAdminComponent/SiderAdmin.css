@@ -1,0 +1,30 @@
+.sider_admin {
+    position: fixed;
+    top: 65px;
+    bottom: 0;
+}
+
+.sider_admin .noi_dung_sider {
+    display: flex;
+    flex-direction: column;
+}
+
+.sider_admin .noi_dung_sider .item_sider {
+    height: 100px;
+}
+
+.breadcrumd_admin {
+    padding: 15px;
+    padding-left: 20px;
+    position: fixed;
+    top: 65px;
+    left: 300px;
+    right: 0;
+    border-bottom: 1px solid #4096ff;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.breadcrumd_admin li {
+    font-size: 16px;
+}

@@ -1,0 +1,17 @@
+.noi_dung_trang_chu {
+    margin-top: 20px;
+}
+
+.noi_dung_trang_chu .danh_sach_san_pham {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.noi_dung_trang_chu .danh_sach_san_pham .the_san_pham {
+    display: flex;
+    width: calc(20% - 20px);
+    margin: 10px;
+}

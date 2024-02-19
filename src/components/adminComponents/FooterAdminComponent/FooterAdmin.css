@@ -1,0 +1,32 @@
+.footer_admin {
+    padding: 20px 100px;
+}
+
+.footer_admin .noi_dung_footer {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_admin .noi_dung_footer strong {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+
+}
+
+.footer_admin .noi_dung_footer .lien_ket,
+.footer_admin .noi_dung_footer .thong_tin_lien_he,
+.footer_admin .noi_dung_footer .ve_chung_toi {
+    width: 30%;
+}
+
+.footer_admin .made {
+    margin-top: 25px;
+}
+
+.footer_admin .made p {
+    padding: 20px 0;
+    text-align: center;
+    border-top: solid 1px black;
+}

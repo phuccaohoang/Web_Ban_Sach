@@ -1,0 +1,47 @@
+.header_user {
+    display: flex;
+    position: fixed;
+    height: 70px;
+    min-width: 1200px;
+    width: 100vw;
+    align-items: center;
+    border-bottom: 1px solid #4396ff;
+    padding: 0 10px;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.logo_header {
+    height: 90%;
+    flex-shrink: 0;
+    margin-right: 100px;
+}
+
+.logo_header img {
+    height: 100%;
+}
+
+.thanh_tim_kiem {
+    margin-right: 100px;
+    flex: 1;
+}
+
+
+.thong_tin_khach_hang {
+    flex-shrink: 0;
+    width: 200px;
+    height: 90%;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.thong_tin_khach_hang img {
+    height: 100%;
+}
+
+.thong_tin_khach_hang .gio_hang {
+    font-size: 40px;
+    color: #4396ff;
+}

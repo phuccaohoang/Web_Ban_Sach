@@ -1,0 +1,23 @@
+.the_san_pham .ant-card-actions {
+    flex-shrink: 0;
+    height: 50px;
+}
+
+.the_san_pham .ant-card-body {
+    flex: 1;
+}
+
+.the_san_pham .noi_dung_the_san_pham {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.noi_dung_the_san_pham h3 {
+    flex: 1;
+}
+
+.noi_dung_the_san_pham .thong_tin_sach {
+    flex-shrink: 0;
+}

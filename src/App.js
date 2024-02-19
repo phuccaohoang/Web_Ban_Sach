@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { useSelector } from "react-redux"
+import { RoutesAdmin } from "./routes/adminRoutes"
+import { RoutesUser } from "./routes/userRoutes"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export const App = () => {
+
+    const admin = useSelector(state => state.accountAdmin)
+    const customer = useSelector(state => state.accountCustomer)
+
+
+    return (
+        <>
+            {customer.isLogin ? null : <RoutesAdmin />}
+            {admin.isLogin ? null : <RoutesUser />}
+        </>
+    )
+
 }
-
-export default App;

@@ -1,0 +1,30 @@
+.filter_admin {
+    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+    z-index: 1;
+}
+
+.type_book,
+.filter_price,
+.filter_rate,
+.filter_genres,
+.filter_authors,
+.filter_suppliers {
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.filter_admin h4 {
+    margin-bottom: 5px;
+}
+
+.filter_admin .main_filter {
+    flex: 1;
+}
+
+.filter_admin .button_filter {
+    flex-shrink: 0;
+    padding: 10px 0;
+    align-self: flex-end;
+}
